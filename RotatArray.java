@@ -3,14 +3,14 @@ import java.util.Arrays;
 
 class Main {
     
-    // Function to left rotate array by d positions
+
     static void rotateArr(int[] arr, int d) {
         int n = arr.length;
   
-        // Repeat the rotation d times
+        
         for (int i = 0; i < d; i++) {
           
-            // Left rotate the array by one position
+           
             int first = arr[0];
             for (int j = 0; j < n - 1; j++) {
                 arr[j] = arr[j + 1];
