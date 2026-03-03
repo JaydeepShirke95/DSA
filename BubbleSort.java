@@ -1,6 +1,6 @@
 import java.io.*;
 
-class GFG {
+class Main {
     
     // An optimized version of Bubble Sort
     static void bubbleSort(int arr[], int n){
